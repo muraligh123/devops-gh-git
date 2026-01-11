@@ -22,6 +22,7 @@ resource "azurerm_subnet" "web02" {
   address_prefixes     = [local.address_prefixes[1]]
   }
 
+# descrption = "Subnet for database servers"
   
 
   
